@@ -8,7 +8,7 @@ function App() {
     <section className="section">
       {
         data.map ((item) => 
-        <TariffCard key={item.id} isSelected={item.isSelected} headerColor={item.headerColor} price={item.price} tariffColor={item.tariffColor} ></TariffCard>
+        <TariffCard key={item.id} isSelected={item.isSelected} headerColor={item.headerColor} price={item.price} tariffColor={item.tariffColor} speed={item.speed}></TariffCard>
         )
       }
     </section>
